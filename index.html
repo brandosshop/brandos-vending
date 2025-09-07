@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brando's Vending</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #00bfa6;
+      --accent-color: #ffdd57;
+      --background-color: #f9f9f9;
+      --text-color: #333;
+      --card-bg: #fff;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 6px solid var(--accent-color);
+    }
+
+    .logo {
+      width: 400px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .photos img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact p {
+      font-size: 1.1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: var(--primary-color);
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .section {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="brando_vending.png" alt="Business Logo" class="logo" />
+  <p>Fun, fresh & always stocked – let us handle your snack game!</p>
+</header>
+
+<div class="section">
+  <div class="card">
+    <h2>👋 About Us</h2>
+    <p>We’re a small but mighty vending team based in Monmouth County NJ! No upfront costs, no hassle. Just clean, stylish machines that keep your people happy. We're reliable, local, and easy to work with.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎯 What We Offer</h2>
+    <ul>
+      <li>Modern snack & drink machines</li>
+      <li>Free delivery, setup, & service</li>
+      <li>Cashless payment options 💳</li>
+      <li>Fast restocks & remote monitoring 📡</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>✨ How does it work?</h2>
+    <p>1. Reach out via contact infomation below.<br>2. Agree on location and timeframe. <br> 3. We pay you. <br> 4. We bring the vending machine, and then take care of the machine, the snacks, and the restocking — zero effort on your end.</p>
+  </div>
+
+
+  <div class="card contact">
+    <h2>📬Interested in adding a vending machine near you? Get in Touch</h2>
+    <p><strong>Email:</strong> brandosbountyshop@gmail.com<br>
+       <strong>Phone:</strong> 609-712-8348<br>
+    </p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; Brando's Vending. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
